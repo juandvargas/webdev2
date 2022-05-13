@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html">
+                <h1>Final Project</h1>
+            </a>
+            <nav>
+                <a href="gallery.html">Gallery</a>
+                <a href="tabs.html">Tabs</a>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="column">
+                    <img src="//picsum.photos/id/70/400/250" alt="Forest" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="//picsum.photos/id/71/400/250" alt="Sunset" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="//picsum.photos/id/72/400/250" alt="Grass" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="//picsum.photos/id/73/400/250" alt="Baseball" style="width:100%" onclick="myFunction(this);">
+                </div>
+              </div>
+              
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg">
+                <div id="imgtext"></div>
+              </div>
+              
+        </main>
+    </div>
+    <footer>
+        <p class="footer-text">&copy 2022 Juan D. Vargas</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

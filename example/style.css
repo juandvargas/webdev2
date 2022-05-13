@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  background-color: antiquewhite;
+  display: grid;
+  flex-direction: 1fr 1fr;
+}
+.img1 {
+  border: 2px solid red;
+  
+  top:0;
+  z-index: 0;
+  left:20em;
+  bottom: 0;
+  height: 20em;
+  width: 20em;
+  transform: translate(20em);
+}
+.img6 {
+  border: 2px solid red;
+  position: sticky;
+  top:0;
+  left:50em;
+}
